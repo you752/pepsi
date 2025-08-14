@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+#header
+{
+    height: 100vh;
+    background-color: #0162be;
+    color: white;
+}
+#header .container
+{
+   margin: 0 200px;
+}
+.logo
+{
+    width:60px;
+}
+.container nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container nav ul
+{
+    list-style: none;
+    
+    display: flex;
+}
+.container nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+    margin: 20px;
+}
+.container nav ul li a:hover
+{
+    color: brown;
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 0;
+    height: 70%;
+ 
+}
+.content .pepsi-can
+{
+    width: 250px;;
+}
+.content-text h1
+{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.content-text h1 span
+{
+    font-size: 100px;
+        margin-bottom: 40px;
+
+}
+.content-text p
+{
+    width: 60%;
+        margin-bottom: 60px;
+
+}
+.content-text a
+{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius:30px ;
+     text-decoration: none;
+     color: black;
+}
+.content-text a:hover
+{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+}
+.social
+{ margin-left:3rem ;
+   
+}
+.social i{
+    color: #fff;
+    margin: 10px;
+    font-size: 25px;
+}
+.social i:hover
+{
+    color: rgb(202, 52, 15);
+}
+.pes
+{
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       height: 100vh;
+    background-color: #ddd;
+    padding: 7rem;
+}
+.mm
+{
+    width: 150px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+.nn{
+    width: 80px;
+}
+.border
+{
+    height: 3px;
+    width: 120px;
+   background-color: red;
+}
+.main .row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top:100px ;
+   
+}
+.main .row .col
+{
+    background-color: #fff;
+    margin: 0 1rem;
+    padding: 50px 20px;
+     border-radius: 10px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2) ;
+}
+.main .row .col .bb
+{
+    padding: 11px 0;
+}
+.main .row .col h4
+{
+margin-bottom:5px ;
+}
+.main .row .col img
+{
+   margin-bottom:10px ; 
+}
